@@ -15,6 +15,18 @@ module.exports = {
       backgroundImage: {
         'foto-header': "url('./assets/Imagem-61-removebg-preview.png')",
         'footer-texture': "url('/img/footer-texture.png')",
+      },
+      keyframes:  {
+        typing: {
+          '100%' : { left: '100%', margin: '0 -35px 0 35px' }
+        },
+        slide:{ 
+          '100%' : { top: '-200px'}
+        }
+      },
+      animation: {
+        typing: 'typing 2s steps(15) infinite',
+        slide: 'slide 10s steps(5) infinite'
       }
     },
   },
