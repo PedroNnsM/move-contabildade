@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { FiMenu } from "react-icons/fi"
 import Logo from "../../assets/logoBlack.png"
+import { LiComponent} from './LiCompontents'
 
 
 export function Navbar(){
@@ -20,11 +21,10 @@ export function Navbar(){
 
           {/* Montando a lista de itens para nevegacao da Lp */}
           <ul className="text-base text-gray-600 lg:flex lg:justify-between ">
-            <li className="lg:px-5  block lg:py-2 font-semibold hover:text-move-blue-900 text-center  text-move-blue-500 text-2xl py-5 "><a href="#">Home</a></li>
-            <li className="lg:px-5  block lg:py-2 font-semibold hover:text-move-blue-900 text-center  text-move-blue-500 text-2xl py-5  "><a href="#">sobre move</a></li>
-            <li className="lg:px-5  block lg:py-2 font-semibold hover:text-move-blue-900 text-center  text-move-blue-500 text-2xl py-5  "><a href="#">Servicos</a></li>
-            <li className="lg:px-5  block lg:py-2 font-semibold hover:text-move-blue-900 text-center  text-move-blue-500 text-2xl py-5  "><a href="#">planos </a></li>
-            <li className="lg:px-5  block lg:py-2 font-semibold hover:text-move-blue-900 text-center  text-move-blue-500 text-2xl py-5  "><a href="#">contato</a></li>
+            <LiComponent tag='inicio' text='início' />
+            <LiComponent tag='sobre' text='sobre move' />
+            <LiComponent tag='servicos' text='Servicos' />
+            <LiComponent tag='planos' text='planos' />
           </ul>
         </nav>
       </div>

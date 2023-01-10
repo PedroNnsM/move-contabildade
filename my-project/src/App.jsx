@@ -7,7 +7,9 @@ export default function App() {
       <Navbar />
       <Header />
       <div className="bg-gradient-to-t from-move-blue-500 to-move-gray-100 h-screen mt-[-16rem] z-0">
-
+        <div className="mt[16rem]">
+          
+        </div>
       </div>
     </div>
   )
