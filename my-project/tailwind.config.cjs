@@ -15,6 +15,7 @@ module.exports = {
       backgroundImage: {
         'foto-header': "url('./assets/Imagem-61-removebg-preview.png')",
         'footer-texture': "url('/img/footer-texture.png')",
+        'foto-header-desktop': 'url(./assets/Imagem-60-removebg-preview.png)'
       },
       keyframes:  {
         typing: {
@@ -25,7 +26,7 @@ module.exports = {
         }
       },
       animation: {
-        typing: 'typing 2s steps(15) infinite',
+        typing: 'typing 2s steps(20) infinite',
         slide: 'slide 10s steps(5) infinite'
       }
     },
