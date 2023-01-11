@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { FiMenu } from "react-icons/fi"
-import Logo from "../../assets/logoBlack.png"
+import Logo from "../../../public/MOVE-LOGO-DIREITA-SVG (1) 1.svg"
 import { LiComponent} from './LiCompontents'
 
 
@@ -11,7 +11,7 @@ export function Navbar(){
     {/* Inserir a imagem da Logomarca */}
       <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full relative">
 
-        <img className="w-16 h-16 rounded-full shadow-2xl " src={Logo} />
+        <img className="w-30 h-10  " src={Logo} />
         <FiMenu className="lg:hidden block h-8 w-8 text-move-blue-500 cursor-pointer" onClick={() => setOpen(!open)} />
 
         <nav className={
@@ -25,6 +25,9 @@ export function Navbar(){
             <LiComponent tag='sobre' text='sobre move' />
             <LiComponent tag='servicos' text='Servicos' />
             <LiComponent tag='planos' text='planos' />
+          </ul>
+          <ul>
+            
           </ul>
         </nav>
       </div>

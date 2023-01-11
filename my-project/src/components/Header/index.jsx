@@ -3,7 +3,7 @@ import { LiHeader } from './ListaHearder'
 
 export function Header(){
   return(
-    <div className="mx-4 h-[45.8rem] bg-slate-50 bg-foto-header  bg-contain bg-center bg-no-repeat z-10 relative">
+    <div className="mx-4 h-[45.8rem] bg-slate-50 bg-foto-header  bg-contain bg-center bg-no-repeat z-10 relative flex flex-col items-center">
       <h2 className="text-move-blue-900 text-center mt-8">
         Procurando uma contabilidade:
       </h2>
@@ -15,6 +15,12 @@ export function Header(){
         <LiHeader text='Planeja com você?' />
 
       </ul>
+      <div className='max-w-[350px]'>
+        <p className='font-normal text-center text-base'>
+        Aqui na move você encontra soluções que irão auxiliar a alavancar seu
+  negócio!
+        </p>
+      </div>
       <div className='flex justify-center items-center flex-col gap-4 mt-8'>
         <button className="text-move-gray-100 bg-move-blue-900 py-1 px-3 rounded-xl text-center">
           Abrir minha empresa
