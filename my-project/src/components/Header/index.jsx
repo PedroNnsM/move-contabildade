@@ -35,7 +35,7 @@ export function Header(){
       </div>
       <div className="flex items-center justify-center  bg-gradient-to-t from-move-blue-500 to-move-gray-100 z-0 lg:bg-none lg:w-[40%] lg:justify-start lg:items-">
         <img src={FotoHeader} alt="" className='lg:hidden' />
-        <img src={FotoHeaderDesktop} alt="" className=' hidden   lg:block ' />
+        <img src={FotoHeaderDesktop} alt="" className=' hidden    lg:block ' />
       </div>
     </div>
   )
