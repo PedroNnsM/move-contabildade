@@ -3,7 +3,7 @@ import FotoAbout from '../../assets/Imagem-14.jpg'
 export function About() {
     return (
 
-      <section className="bg-move-white dark:bg-move-blue-900">
+      <section id='sobre' className="bg-move-white dark:bg-move-blue-900">
         <div className="max-w-6xl px-6 py-10 mx-auto">
           <p className="text-xl font-medium text-move-blue-500 ">Sobre a Move</p>
           <h1 className="mt-2 text-3xl font-semibold text-move-blue-900 capitalize lg:text-4xl dark:text-move-white">
@@ -14,8 +14,8 @@ export function About() {
             <div className="w-full p-6 bg-move-blue-500 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
               <img className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src={FotoAbout} alt="client photo" />
               <div className='mt-4'>
-                  <p className="text-xl font-medium tracking-tight text-move-white">Andreza Mello</p>
-                  <p className="text-blue-200 ">CEO / Contatadora</p>
+                  <p className="text-xl font-medium tracking-tight text-move-white">Andreza Melo</p>
+                  <p className="text-blue-200 ">Founder e CEO </p>
               <div className="mt-2 md:mx-6">
               
                 </div>
