@@ -18,7 +18,7 @@ export default function App() {
             Soluções
           </h1>
          </div>
-          <div id="solocoes" className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
+          <div id="solucoes" className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
             <PriceCards  
               servico='Abertura de Empresa'
               preco='R$: 500.00'
