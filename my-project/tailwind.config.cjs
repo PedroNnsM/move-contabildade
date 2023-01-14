@@ -10,6 +10,7 @@ module.exports = {
       "move-blue-500": "#44B7CA",
       "move-blue-100": "#B1C0F7",
       "move-gray-100": "#EDEDED",
+      "move-white": "#ffffff"
     },
     extend: {
       backgroundImage: {
