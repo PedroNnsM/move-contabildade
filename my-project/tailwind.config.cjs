@@ -27,8 +27,8 @@ module.exports = {
         }
       },
       animation: {
-        typing: 'typing 2s steps(20) infinite',
-        slide: 'slide 10s steps(5) infinite'
+        typing: 'typing 3s steps(40) infinite',
+        slide: 'slide 15s steps(5) infinite'
       }
     },
   },
