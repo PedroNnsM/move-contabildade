@@ -14,12 +14,12 @@ export function About() {
             <div className="w-full p-6 bg-move-blue-500 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
               <img className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src={FotoAbout} alt="client photo" />
               <div className='mt-4'>
-                  <p className="text-xl font-medium tracking-tight text-move-white">Andreza Melo</p>
+                  <p className="text-xl font-medium tracking-tight text-move-white dark:text-move-white">Andreza Melo</p>
                   <p className="text-blue-200 ">Founder e CEO </p>
               <div className="mt-2 md:mx-6">
               
                 </div>
-                <p className="mt-4 text-lg leading-relaxed text-move-white md:text-base"> 
+                <p className="mt-4 text-lg leading-relaxed text-move-white md:text-xl"> 
                   A Move é uma empresa contábil feita de empreendedores para empreendedores!<br/><br/>
                   Criada na pandemia, surgiu com o objetivo de simplificar a rotina contábil e
                   mostrar como
