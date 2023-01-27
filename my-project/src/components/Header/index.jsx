@@ -1,6 +1,7 @@
 import FotoHeader from '../../assets/Imagem-61-removebg-preview.png'
 import FotoHeaderDesktop from '../../assets/Imagem-60-removebg-preview.png'
 import { LiHeader } from './ListaHearder'
+import TextAnimation from '../animation/TextAnimation'
 
 export function Header(){
   return(
@@ -9,12 +10,13 @@ export function Header(){
         <h2 className="text-move-blue-900 text-center mt-8">
           Procurando uma contabilidade:
         </h2>
-        <ul className='leading-10 h-[2.5rem] truncate'>
-          <LiHeader text='Sem burocracia?' />
+        <ul className='leading-10 h-[2.5rem]  relative '>
+        <TextAnimation />
+          {/* <LiHeader text='Sem burocracia?' />
           <LiHeader text='Que fala a sua língua?' />
           <LiHeader text='Inovadora?' />
           <LiHeader text='Impulsiona a sua empresa?' />
-          <LiHeader text='Planeja com você?' />
+          <LiHeader text='Planeja com você?' /> */}
 
         </ul>
         <div className='max-w-[350px]'>

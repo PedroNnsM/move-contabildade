@@ -21,7 +21,7 @@ export default function App() {
           <div id="solucoes" className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
             <PriceCards  
               servico='Abertura de Empresa'
-              preco='R$: 500.00'
+              preco='R$ 500.00'
               periodo=''
               passo1='1 - Entendendo o que você precisa:
               Desde o início "pegamos na sua mão" e identificamos o tipo certo de empresa para você,
@@ -39,7 +39,7 @@ export default function App() {
             />
             <PriceCards  
               servico='Troca de Contabilidade'
-              preco='R$: 500.00'
+              preco='R$ 500.00'
               periodo=''
               passo1='1 - Um especialista entrará em contato
               Um Mover entrará em contato para explicar como funciona a mudança, entender como

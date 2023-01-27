@@ -8,21 +8,21 @@ export function PriceCards({servico, preco, periodo,passo1, passo2, passo3,textB
         </div>
         
         <ul className="flex-1 space-y-4">
-          <li className="text-gray-500 dark:text-sm">
+          <li className="text-gray-500 text-sm">
             {passo1}
           </li>
-          <li className="text-gray-500 dark:text-sm">
+          <li className="text-gray-500 text-sm">
             {passo2}
           </li>
-          <li className="text-gray-500 dark:text-sm">
+          <li className="text-gray-500 text-sm">
             {passo3}
           </li>
         </ul>
         <div className="flex-shrink-0">
-          <span className="pt-2 text-4xl font-bold text-move-blue-500 uppercase dark:text-gray-100">
+          <span className="pt-2 text-4xl font-bold uppercase text-gray-100">
             {preco}
           </span>
-          <span className="text-gray-500 dark:text-gray-400">
+          <span className=" text-gray-400">
             {periodo}
           </span>
         </div>
