@@ -5,10 +5,10 @@ export function About() {
 
       <section id='sobre' className=" bg-move-blue-900">
         <div className="max-w-6xl px-6 py-10 mx-auto">
-          <p className="text-xl font-medium text-move-blue-500 ">Sobre a Move</p>
-          <h1 className="mt-2 text-3xl font-semibold  capitalize lg:text-4xl text-move-white">
+          <p className="text-xl font-medium text-move-blue-500 ">Sobre a MOVE</p>
+          <h5 className="mt-2 text-3xl font-semibold  capitalize lg:text-4xl text-move-white">
             Quem somos ?
-          </h1>
+          </h5>
           <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
             <div className="absolute w-full bg-move-blue-500 -z-10 md:h-96 rounded-2xl" />
             <div className="w-full p-6 bg-move-blue-500 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
