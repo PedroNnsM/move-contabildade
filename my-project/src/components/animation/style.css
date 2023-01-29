@@ -1,3 +1,8 @@
+span{
+    stroke: black;
+}
+
+
 span:nth-child(0) {
   animation-delay: 0.0s
 }

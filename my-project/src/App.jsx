@@ -1,7 +1,7 @@
 import { About } from "./components/About";
 import { FooterPage } from "./components/Footer";
 import { Header } from "./components/Header";
-import {  Navbar } from "./components/Navbar";
+import { Navbar } from "./components/Navbar";
 import { PriceCards } from "./components/Solucoes";
 
 export default function App() {
@@ -12,14 +12,13 @@ export default function App() {
       <About />
       <div className="bg-white dark:bg-gray-900">
         <div className="container px-6 py-8 mx-auto">
-         <div className="max-w-6xl px-6 py-10 mx-auto">
-
-         <h1 className="mt-2 text-3xl font-semibold text-move-blue-900 capitalize lg:text-4xl ">
-            Soluções
-          </h1>
-         </div>
+          <div className="max-w-6xl px-6 py-10 mx-auto">
+            <h4 className="mt-2 text-3xl font-semibold text-move-blue-900 capitalize lg:text-4xl ">
+              Soluções
+            </h4>
+          </div>
           <div id="solucoes" className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-            <PriceCards  
+            <PriceCards
               servico='Abertura de Empresa'
               preco='R$ 500.00'
               periodo=''
@@ -37,7 +36,7 @@ export default function App() {
               financeira.'
               textBtn='Abertura de empresa'
             />
-            <PriceCards  
+            <PriceCards
               servico='Troca de Contabilidade'
               preco='R$ 500.00'
               periodo=''

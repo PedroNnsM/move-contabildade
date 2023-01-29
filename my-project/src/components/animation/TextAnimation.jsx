@@ -30,7 +30,7 @@ export default function TextAnimation() {
   return (
     <div className=" flex gap-1  ">
       {currentPhrase.array.map((item, index) => (
-        <span key={index} className={`animate-fadeIn text-move-blue-500 opacity-0 `} >{item}</span>
+        <span key={index} className={`animate-fadeIn whitespace-nowrap text-move-blue-500 opacity-0  `} >{item}</span>
       ))}
     </div>
   );
