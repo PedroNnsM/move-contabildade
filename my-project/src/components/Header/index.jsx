@@ -7,7 +7,7 @@ import { BotaoAbrirMinhaEmpresa } from '../Buttons/BotaoAbrirMinhaEmpresa'
 
 export function Header() {
   return (
-    <section id='inicio' className='lg:flex lg:w-full lg:h-[600px] flex  justify-between xl:max-w-6xl xl:mx-auto max-w-full'>
+    <section id='inicio' className='lg:flex lg:w-full lg:h-[600px]   justify-between xl:max-w-6xl xl:mx-auto max-w-full'>
       <div className="mx-4  bg-slate-50 z-10 relative flex flex-col items-center gap-6 mt-8 ">
         <h2 className="text-move-blue-900 text-center mt-8">
           Procurando uma contabilidade:
