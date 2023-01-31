@@ -3,8 +3,8 @@ import { WhatsappLogo, LinkedinLogo, InstagramLogo } from "phosphor-react"
 export function FooterPage() {
   return (
 
-    <footer className="text-move-gray-100 bg-move-blue-500 body-font">
-      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <footer className="text-move-gray-100 bg-move-blue-500 body-font ">
+      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col  justify-between xl:max-w-6xl xl:mx-auto max-w-full">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <img className='w-[8rem]' src={footerImageLogo} />
         </a>

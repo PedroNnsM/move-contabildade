@@ -10,7 +10,7 @@ export function Navbar(){
   const [open, setOpen] = useState(false)
   return(
     <header className="border-b border-gray-300 py-2  ">
-      <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full relative transition ease-in-out delay-150">
+      <div className="flex items-center justify-between xl:max-w-6xl xl:mx-auto max-w-full px-[8%] xl:p-0 flex-wrap w-full relative transition ease-in-out delay-150">
         <img className="w-30 h-10  " src={Logo} />
         { open ? <RiCloseFill className="lg:hidden block h-8 w-8 text-move-blue-500 cursor-pointer" onClick={() => setOpen(!open)} /> :<FiMenu className="lg:hidden block h-8 w-8 text-move-blue-500 cursor-pointer" onClick={() => setOpen(!open)} />   } 
         <nav className={
@@ -24,7 +24,7 @@ export function Navbar(){
             <LiComponent tag='solucoes' text='Soluções' />
             {/* <LiComponent tag='planos' text='planos' /> */}
           </ul>
-          <div className="flex items-center justify-center gap-3">
+          <ul className="flex items-center justify-center gap-3">
             <li>
               <button className=" "> 
                   <a href="https://www.instagram.com/movecontdigital/" target='_blank'>
@@ -46,7 +46,7 @@ export function Navbar(){
                   </a>
               </button>
             </li>
-          </div>
+          </ul>
         </nav>
       </div>
     </header>
