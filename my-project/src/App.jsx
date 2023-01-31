@@ -10,17 +10,47 @@ export default function App() {
       <Navbar />
       <Header />
       <About />
-      <div className="bg-white dark:bg-gray-900">
+      <div id="solucoes"  className="
+          bg-white 
+          flex
+          xl:items-center 
+          xl:justify-between 
+          xl:max-w-6xl 
+          xl:mx-auto
+          max-w-full
+          gap-1
+          ">
         <div className="container px-6 py-8 mx-auto">
-          <div className="max-w-6xl px-6 py-10 mx-auto">
-            <h4 className="mt-2 text-3xl font-semibold text-move-blue-900 capitalize lg:text-4xl ">
+          <div className="
+          flex
+          xl:items-center 
+          xl:justify-between 
+          xl:max-w-6xl 
+          xl:mx-auto
+          max-w-full
+          ">
+            <h4 className="mt-2 text-3xl font-semibold text-move-blue-900 capitalize lg:text-4xl mb ">
               Soluções
             </h4>
           </div>
-          <div id="solucoes" className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0  xl:items-center xl:justify-between xl:max-w-6xl xl:mx-auto max-w-full">
+          <div  className="
+          mt-12
+          flex 
+          flex-col 
+          items-center 
+          justify-center  
+          lg:-mx-4 
+          lg:flex-row 
+          lg:items-stretch 
+          lg:space-y-0 
+          xl:items-center 
+          xl:justify-between 
+          xl:max-w-6xl 
+          xl:mx-auto
+          max-w-full">
             <PriceCards
               servico='Abertura de Empresa'
-              preco='R$ 500.00'
+              
               periodo=''
               passo1='1 - Entendendo o que você precisa:
               Desde o início "pegamos na sua mão" e identificamos o tipo certo de empresa para você,
@@ -38,7 +68,7 @@ export default function App() {
             />
             <PriceCards
               servico='Troca de Contabilidade'
-              preco='R$ 500.00'
+              
               periodo=''
               passo1='1 - Um especialista entrará em contato
               Um Mover entrará em contato para explicar como funciona a mudança, entender como
