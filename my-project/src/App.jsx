@@ -10,11 +10,12 @@ export default function App() {
     <div className="text-3xl font-bold bg-move-gray-100 h-screen">
       <Navbar />
       <Header />
-      <section>
-        <Atuacao textAtuacao="Ola mundo" />
-        <Atuacao textAtuacao="Ola mundo" />
-        <Atuacao textAtuacao="Ola mundo" />
-        <Atuacao textAtuacao="Ola mundo" />
+      <section className="flex max-w-6xl mx-auto gap-2 ">
+        <Atuacao textAtuacao="Marketing digital" />
+        <Atuacao textAtuacao="Educação" />
+        <Atuacao textAtuacao="Droppshping" />
+        <Atuacao textAtuacao="Negócios digitais" />
+        <Atuacao textAtuacao="Negócios digitais" />
       </section>
       <About />
       <div
