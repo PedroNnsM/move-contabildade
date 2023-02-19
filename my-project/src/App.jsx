@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Atuacao } from "./components/Atuacao";
 import { FooterPage } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Navbar } from "./components/Navbar";
@@ -9,6 +10,12 @@ export default function App() {
     <div className="text-3xl font-bold bg-move-gray-100 h-screen">
       <Navbar />
       <Header />
+      <section>
+        <Atuacao textAtuacao="Ola mundo" />
+        <Atuacao textAtuacao="Ola mundo" />
+        <Atuacao textAtuacao="Ola mundo" />
+        <Atuacao textAtuacao="Ola mundo" />
+      </section>
       <About />
       <div
         id="solucoes"
